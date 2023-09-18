@@ -15,10 +15,10 @@ public class Main {
 
         Fourthtask fourth = new Fourthtask();
 switch (tasks){
-    case 1: first.FirstTask();
-    case 2: second.SecTask();
-    case 3: third.thirdtask();
-    case 4: fourth.fourthtask();
+    case 1: first.FirstTask();break;
+    case 2: second.SecTask();break;
+    case 3: third.thirdtask();break;
+    case 4: fourth.fourthtask();break;
 }
 
     }

@@ -18,7 +18,7 @@ public class Fourthtask {
         }
         for (String word : words) {
             if (word.length() != maxlengh) {
-                System.out.print(word + " ");
+                System.out.print("Оброблений текст: "+ word + " ");
             }
 
         }
