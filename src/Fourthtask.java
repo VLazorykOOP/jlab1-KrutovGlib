@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//вилучає слова найбільшої довжини
 public class Fourthtask {
     public void fourthtask() {
 
@@ -16,11 +16,18 @@ public class Fourthtask {
                 maxlengh = word.length();
             }
         }
-        for (String word : words) {
-            if (word.length() != maxlengh) {
-                System.out.print("Оброблений текст: "+ word + " ");
-            }
+        boolean firstWord = true; // Флаг для першого слова максимальної довжини
 
+        for (String word : words) {
+            if (word.length() == maxlengh) {
+                if (firstWord) {
+                    System.out.print("Оброблений текст: " + word);
+                    firstWord = false;
+                } else {
+                    System.out.print(" " + word);
+                }
+            }
         }
     }
-}
+    }
+

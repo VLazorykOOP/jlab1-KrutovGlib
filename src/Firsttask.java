@@ -10,7 +10,6 @@ public class Firsttask {
         double result = (1.0/((a*(b*b)-(2.0*b)))) + (1.0/(3.0*(a*a)+2.0))*b;
         System.out.print("Результат: "+ result);
     }
-
     public void calculateID(){
         Scanner scan = new Scanner(System.in);
         System.out.print("Введіть а: ");
@@ -35,10 +34,10 @@ public class Firsttask {
         System.out.print("Ваш вибір: ");
         Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
-        switch (input){
-            case 1: calculateDD();break;
-            case 2: calculateID();break;
-            case 3: calculateDI();break;
+        switch (input) {
+            case 1 -> calculateDD();
+            case 2 -> calculateID();
+            case 3 -> calculateDI();
         }
 
     }

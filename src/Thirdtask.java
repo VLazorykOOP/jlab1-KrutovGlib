@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//рахує середнє арифметичне для рядків матриці
 public class Thirdtask {
     public void thirdtask(){
         Scanner scanner = new Scanner(System.in);
